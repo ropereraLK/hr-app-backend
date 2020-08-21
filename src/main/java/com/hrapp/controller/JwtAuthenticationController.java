@@ -18,7 +18,7 @@ import com.hrapp.model.JwtRequest;
 import com.hrapp.model.JwtResponse;
 import com.hrapp.model.UserDTO;
 import com.hrapp.service.JwtUserDetailsService;
-//commented
+
 @RestController
 @CrossOrigin
 public class JwtAuthenticationController {
