@@ -21,7 +21,7 @@ import com.hrapp.model.Attendance;
 import com.hrapp.model.AttendanceCustom;
 //import com.hrapp.model.FingerPrintVerification; 
 import com.hrapp.service.AttendanceService;
-
+//Added a new comment
 @CrossOrigin()
 @Controller
 public class AttendanceController {
