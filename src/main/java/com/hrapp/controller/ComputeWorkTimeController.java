@@ -26,13 +26,7 @@ public class ComputeWorkTimeController {
 
 	@Autowired
 	private ComputeWorkTimeService service;
- /*
-	@RequestMapping(method=RequestMethod.POST,value="/attendance13") 
-	public String postAttendance(@RequestBody Attendance att) {
-		  return service.computeWorkTimeForAttendance(att);
-	}
-	*/
-	
+
  	@RequestMapping(method=RequestMethod.GET,value="/attendance133/{username}/{startDate}/{endDate}")  
 	public List<Attendance> getAttendance(@PathVariable(value="username") String username, 
 							@PathVariable(value="startDate") @DateTimeFormat(pattern = "yyyy-MM-dd") Date startDate , 
