@@ -9,19 +9,15 @@ import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
-//import org.springframework.web.bind.annotation.PathVariable;
-//import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
-
 import com.hrapp.model.Attendance;
 import com.hrapp.model.AttendanceCustom;
-//import com.hrapp.model.FingerPrintVerification; 
 import com.hrapp.service.AttendanceService;
-//Added a new comment
+
 @CrossOrigin()
 @Controller
 public class AttendanceController {
@@ -30,8 +26,6 @@ public class AttendanceController {
 	private AttendanceService service;
 	
 	@RequestMapping(method=RequestMethod.GET,value="/atd")  
-	//public List<Attendance> getAttendance(@PathVariable(value="username") String username ){
-		//return  service.getAttendanceWithUsername(username);
  	public  String index1(){
  		return "index1";
 	}
@@ -42,14 +36,7 @@ public class AttendanceController {
 	public void postAttendance(@RequestBody Attendance att) {
 		  service.postAttendance(att);
 	}
-/*
-	@RequestMapping(method=RequestMethod.GET,value="/attendance")  
-	public List<Attendance> getAttendance( ){
-		return  service.getAttendance();
-	}
-	
-	
-*/	
+
  	@RequestMapping(method=RequestMethod.GET,value="/attendance/{username}")  
 	//public List<Attendance> getAttendance(@PathVariable(value="username") String username ){
 		//return  service.getAttendanceWithUsername(username);
