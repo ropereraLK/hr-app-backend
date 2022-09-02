@@ -51,7 +51,7 @@ public class AttendanceComputation {
 	  private Date dateEmployeeOverWorkTimeEnd;
 			
 			 
-	//public AttendanceComputation () {}
+	public AttendanceComputation () {}
 	
 	public EmployeeDailyAttendance getAttendance() {
 		
