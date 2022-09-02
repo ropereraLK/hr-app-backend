@@ -55,7 +55,7 @@ public class AttendanceComputation {
 	  private Date dateEmployeeOverWorkTimeEnd;
 			
 			 
-	//public AttendanceComputation () {}
+	public AttendanceComputation () {}
 	
 	public EmployeeDailyAttendance getAttendance() {
 		
@@ -122,7 +122,7 @@ public class AttendanceComputation {
 				 
 				 );
 		
-		///////////////////////////////////////////////////////////////
+
 		
 		eda.setDateEmployeeTimeIn(dateEmployeeTimeIn);
 		eda.setDateEmployeeTimeOut(dateEmployeeTimeOut);
