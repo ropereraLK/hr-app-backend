@@ -118,7 +118,7 @@ public class AttendanceComputation {
 				 
 				 );
 		
-		///////////////////////////////////////////////////////////////
+
 		
 		eda.setDateEmployeeTimeIn(dateEmployeeTimeIn);
 		eda.setDateEmployeeTimeOut(dateEmployeeTimeOut);
