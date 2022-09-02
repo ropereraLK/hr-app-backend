@@ -8,7 +8,6 @@ class HrAppBackendApplicationTests {
 
 	@Test
 	void contextLoads() {
-		//comment
 	}
 
 }
